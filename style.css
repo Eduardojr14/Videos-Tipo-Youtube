@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 150px;
+    background-color: orange;
+}
+
+nav {
+    padding: 20px;
+    background-color: olive;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    padding: 20px;
+    width: 65%;
+}
+
+section h1 {
+    margin-bottom: 10px;
+}
+
+section iframe {
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+}
+
+aside {
+    padding: 20px;
+    width: 35%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #CCC;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.flex span {
+    display: block;
+}
+
+.flex button {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+aside a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+aside a h2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+aside a span {
+    display: block;
+    font-size: 14px;
+}
+
+.contenedor {
+    padding-left: 10px;
+}
